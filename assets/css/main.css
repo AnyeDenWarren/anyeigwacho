@@ -5,6 +5,7 @@
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -4687,3 +4688,14 @@ input, select, textarea {
 		}
 
 	}
+/* Force all bullet points in your projects to be left-aligned */
+ul {
+    text-align: left;       /* Ensure bullets and text are left-aligned */
+    padding-left: 20px;     /* Standard indent for bullets */
+    list-style-position: outside; /* Bullets outside the text block */
+}
+
+li {
+    text-align: left;       /* Make sure list items inherit left alignment */
+    margin-bottom: 6px;     /* Optional: spacing between items */
+}
